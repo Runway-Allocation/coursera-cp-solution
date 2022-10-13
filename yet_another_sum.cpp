@@ -11,7 +11,10 @@ int main()
     for (auto &it : v)
         cin >> it;
 
-    long long s1 = accumulate(v.begin(), v.end(), 0L);
+    long long s1 = 0ll;
+
+    for(auto i:v)
+        s1+=i;
 
     long double s2 = 0;
     for (auto it : v)
