@@ -11,7 +11,7 @@ int main()
     for (auto &it : v)
         cin >> it;
 
-    long long s1 = 0ll;
+    long long s1 = 0;
 
     for(auto i:v)
         s1+=i;
