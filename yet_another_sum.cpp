@@ -14,7 +14,7 @@ int main()
     long long s1 = 0;
 
     for(auto i:v)
-        s1+=i;
+        s1=s1+i;
 
     long double s2 = 0;
     for (auto it : v)
