@@ -21,10 +21,10 @@ int main()
     for(auto i:a){
         if(i[0]=='A')
             v[1]=v[14]=1;
-        else if(i[0]=='T')
-            v[10]=1;
         else if(i[0]=='J')
             v[11]=1;
+        else if(i[0]=='T')
+            v[10]=1;
         else if(i[0]=='Q')
             v[12]=1;
         else if(i[0]=='K')
