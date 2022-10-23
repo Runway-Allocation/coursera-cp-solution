@@ -22,9 +22,7 @@ int32_t main()
     int y=(c/3)*2;
     if(r%3==2)
         x++;
-    if(c%3==2)
-        y++;
-    
+   
 
     if(r==1)
         cout<<y;
