@@ -3,9 +3,9 @@ using namespace std;
 
 #define     int             long long
 
-#define     fr(i,a,b)      for(int i=a;i<b;i++)
+#define     fr(i,a,b)      for(int i=a;i<b;++i)
 
-#define     rep(i,a,b)      for(int i=a;i>=b;i--)
+#define     rep(i,a,b)      for(int i=a;i>=b;--i)
 
 #define     t()             int test;cin>>test;while(test--)
 
