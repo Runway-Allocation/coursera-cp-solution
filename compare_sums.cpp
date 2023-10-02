@@ -15,7 +15,6 @@ int main(){
 
     bool equal_sum = false;
     bool sum_a_larger = false;
-    // your code
 
     double eps = 1e-6;
     double s1 = accumulate(a.begin(), a.end(), 0.0);
